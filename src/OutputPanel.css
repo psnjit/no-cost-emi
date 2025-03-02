@@ -1,0 +1,47 @@
+/* 🌟 Output Panel Container */
+.output-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  margin: auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  color: white;
+}
+
+/* 🌟 Result Numbers */
+.result {
+  font-weight: bold;
+  color: white; /* Bright blue for emphasis */
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* 🌟 Loss Indicator */
+.loss {
+  font-weight: bold;
+  color: #ff4d4d; /* Red for loss */
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .output-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 768px;
+    margin: 10px auto;
+    padding: 20px 5px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    width: 100%;
+  }
+}
